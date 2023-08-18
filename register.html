@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="p-5">
+
+  <div class="container rounded-3 shadow w-50 d-flex flex-column justify-content-center align-items-center mt-4 p-4">
+      <div class="items m-auto text-white w-100 p-4">
+        <h1 class="text-center m-2">Smart Login System</h1>
+        <input id="signUpName" type="text" class="form-control w-100 m-2" placeholder="Enter your name" />
+        <p id="wrongName" class="m-2 text-danger d-none">Wrong name!!</p>
+
+        <input id="signUpIEmail" type="email" class="form-control w-100 m-2" placeholder="Enter your email address" />
+        <p id="exists" class="m-2 text-danger d-none">Email already exists!</p>
+        <p id="wrongMail" class="m-2 text-danger d-none">Wrong mail!!</p>
+        <input  id="signUpPassword" type="password" class="form-control w-100 m-2" placeholder="Enter your password" />
+        <p class="text-center text-success d-none" id="success">Success</p>
+        <button onclick="signUp()" id="registerBtn" type="submit" class="btn btn-outline-info w-100 m-2">
+          Sign Up
+        </button>
+        <p>
+          Have an account? <a href="index.html" target="_blank">Sign in</a>
+        </p>
+      </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

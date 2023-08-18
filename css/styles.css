@@ -1,0 +1,13 @@
+body{
+  background-image: url(../Images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container{
+  background-color: rgba(28,43,50,0.8);
+}
+
+nav{
+  background-color: rgba(28,43,50,1);
+}
